@@ -1,10 +1,9 @@
 #!/bin/bash
-#SBATCH -p LM  # partition
-#SBATCH -C "LM&PH2"
-#SBATCH -t 14-00:00  # days-hours:min
-#SBATCH --mem 768G  # total memory
+#SBATCH -p BioCompute  # partition
+#SBATCH -t 0-00:05  # days-hours:min
+#SBATCH --mem 8G  # total memory
 #SBATCH -N1  # nodes
-#SBATCH --cpus-per-task 20  # cores
+#SBATCH --cpus-per-task 4  # cores
 
 # load modules
 
